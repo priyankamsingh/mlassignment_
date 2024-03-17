@@ -1,4 +1,4 @@
-name: Build and Push Docker image to Docker Hub
+name: Build and Push Docker image to Docker Hub run ML model
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: priyankamsingh/dockerml:latest
+          tags: priyankamsingh/mlassignment:latest
