@@ -12,5 +12,5 @@ RUN pip install -r requirements.txt
 
 #running flask api in docker container
 
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5002", "app:app"]
 #CMD ["python", "app.py"]
